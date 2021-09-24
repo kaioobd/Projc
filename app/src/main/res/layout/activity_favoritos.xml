@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/dvd19"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav" />
+
+    <View
+        android:id="@+id/dvd20"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecoFav3" />
+
+    <View
+        android:id="@+id/dvd21"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecoFav2" />
+
+    <View
+        android:id="@+id/dvd22"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecoFav1" />
+
+    <TextView
+        android:id="@+id/txtFav"
+        android:layout_width="200dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/fav"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="4sp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/imgFav3"
+        android:layout_width="140dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFav2"
+        app:srcCompat="@drawable/fav3" />
+
+    <ImageView
+        android:id="@+id/imgFav2"
+        android:layout_width="140dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgFav1"
+        app:srcCompat="@drawable/fav2" />
+
+    <ImageView
+        android:id="@+id/imgFav1"
+        android:layout_width="140dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVoltaFav"
+        app:srcCompat="@drawable/fav1" />
+
+    <TextView
+        android:id="@+id/txtFav1"
+        android:layout_width="182dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/txtFav1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgFav1"
+/>
+
+    <TextView
+        android:id="@+id/txtFav2"
+        android:layout_width="182dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/txtFav2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgFav2" />
+
+    <TextView
+        android:id="@+id/txtFav3"
+        android:layout_width="182dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/txtFav3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imgFav3" />
+
+    <TextView
+        android:id="@+id/txtFavEnd"
+        android:layout_width="150dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="18dp"
+        android:padding="4sp"
+        android:text="@string/favEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dvd20"
+        android:gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/btnVoltaFav"
+        android:layout_width="95dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:tint="@color/a2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/txtPrecoFav1"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="4sp"
+        android:text="@string/precoFav1"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/imgFav1"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav1" />
+
+    <TextView
+        android:id="@+id/txtPrecoFav2"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="4sp"
+        android:text="@string/precoFav2"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/imgFav2"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav2" />
+
+    <TextView
+        android:id="@+id/txtPrecoFav3"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:padding="4sp"
+        android:text="@string/precoFav3"
+        android:textSize="10sp"
+        app:layout_constraintStart_toEndOf="@+id/imgFav3"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav3" />
+
+    <ImageButton
+        android:id="@+id/imgBtnExcluir2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:tint="@color/a3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav2"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageButton
+        android:id="@+id/imgBtnExcluir1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:tint="@color/a3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav1"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+    <ImageButton
+        android:id="@+id/imgBtnExcluir3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:tint="@color/a3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav3"
+        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

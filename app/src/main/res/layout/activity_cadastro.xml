@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Cadastro">
+
+    <Button
+        android:id="@+id/btnVoltaC"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:padding="4sp"
+        android:text="@string/btnVolta"
+        android:textSize="16sp"
+        app:backgroundTint="@color/a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnCadC"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginLeft="9dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btnCad"
+        android:textSize="14sp"
+        app:backgroundTint="@color/a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnVoltaC"
+        />
+
+    <TextView
+        android:id="@+id/txtNomeC"
+        android:layout_width="58dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:padding="4dp"
+        android:text="@string/nomeC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtTelC"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/telC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dvd30"
+        tools:text="@string/tel" />
+
+    <View
+        android:id="@+id/dvd27"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtNomeC" />
+
+    <View
+        android:id="@+id/dvd29"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtTelC" />
+
+    <View
+        android:id="@+id/dvd30"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtDataNascC" />
+
+    <View
+        android:id="@+id/dvd31"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtCPFC" />
+
+    <View
+        android:id="@+id/dvd32"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtSexoC" />
+
+    <View
+        android:id="@+id/dvd33"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtSenhaC" />
+
+    <View
+        android:id="@+id/dvd34"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtEmailC" />
+
+    <TextView
+        android:id="@+id/txtDataNascC"
+        android:layout_width="200dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/dataNascC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dvd31"
+        tools:text="@string/dataNasc" />
+
+    <EditText
+        android:id="@+id/edtTxtSexoC"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="@string/sexoCHint"
+        android:inputType="textPersonName"
+        android:padding="4sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSexoC" />
+
+    <EditText
+        android:id="@+id/edtTxtEmailC"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="@string/emailCHint"
+        android:inputType="textPersonName"
+        android:padding="4sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmalC" />
+
+    <EditText
+        android:id="@+id/edtTxtNomeC"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="@string/nomeCHint"
+        android:inputType="textPersonName"
+        android:padding="4sp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomeC" />
+
+    <TextView
+        android:id="@+id/txtSexoC"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/sexoC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dvd33"
+        tools:text="@string/sexo" />
+
+    <TextView
+        android:id="@+id/txtEmalC"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/emailC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dvd27"
+        tools:text="@string/email" />
+
+    <TextView
+        android:id="@+id/txtSenhaC"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/senhaC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dvd34"
+        tools:text="@string/senha" />
+
+    <TextView
+        android:id="@+id/txtCPFC"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/CPFC"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dvd32"
+        tools:text="@string/CPF" />
+
+    <EditText
+        android:id="@+id/edtTxtSenhaC"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="@string/senhaCHint"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtSenhaC"
+        android:autoSizeTextType="uniform"/>
+
+    <EditText
+        android:id="@+id/edtTxtTelC"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="@string/telCHint"
+        android:inputType="phone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelC"
+        android:textSize="14dp"/>
+
+    <EditText
+        android:id="@+id/edtTxtDataNascC"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="@string/dataNascCHint"
+        android:inputType="date"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtDataNascC"
+        android:autoSizeTextType="uniform"
+        android:textSize="14dp"
+        />
+
+    <EditText
+        android:id="@+id/edtTxtCPFC"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="@string/CPFCHint"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCPFC" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

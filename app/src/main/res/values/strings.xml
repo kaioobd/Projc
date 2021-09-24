@@ -1,0 +1,153 @@
+<resources>
+    <string name="app_name">carros</string>
+
+    <!-- Nome para identificar os botões do menu -->
+    <string name="btnComprar">Comprar</string>
+    <string name="btnVender">Vender</string>
+    <string name="btnFavoritos">Favoritos</string>
+    <string name="btnPerfil">Meu Perfil</string>
+
+    <!-- Textos do menu em si -->
+    <string name="popCar">Populares do mês:</string>
+
+    <string name="txtCarro1">Chevrolet Cruze 1.4</string>
+    <string name="txtCarro2">Fiat Toro 2.0 16v</string>
+    <string name="txtCarro3">Volkswagen Saveiro 1.6</string>
+
+    <string name="valCar1">R$ 107.900</string>
+    <string name="valCar2">R$ 97.780</string>
+    <string name="valCar3">R$ 119.990</string>
+    <!-- Velho e Novo -->
+    <string name="txtVelho">Vintage</string>
+    <string name="txtNovo">Moderno</string>
+
+    <!-- Notícias -->
+    <string name="news1">GT-R Nismo de 600 cv exclusivo: McDonald’s</string>
+    <string name="news2">Supra de "Velozes e Furiosos" é vendido por quase R$ 2,8 milhões</string>
+    <string name="news3">Tesla Model S Plaid: “carro mais rápido do planeta”</string>
+
+
+    <!-- Perfil -->
+    <string name="nameUso">Clarice Rodrigues</string>
+    <string name="email">Email:</string>
+    <string name="emailUso">kupyskii@gmail.com</string>
+    <string name="senha">Senha:</string>
+    <string name="senhaUso">123456</string>
+    <string name="sexo">Sexo:</string>
+    <string name="sexoUso">Masculino/Feminino</string>
+    <string name="dataNasc">Data de Nascimento:</string>
+    <string name="dataNascUso">01/01/2000</string>
+    <string name="CPF">CPF:</string>
+    <string name="CPFUso">123456789-99</string>
+    <string name="tel">Telefone:</string>
+    <string name="telUso">11 12345-6789</string>
+
+
+    <!-- Pesquisa -->
+    <string name="barraPesq">Digite oque procura...</string>
+
+    <!-- Favoritos -->
+    <string name="fav">Meus Favoritos</string>
+
+    <string name="txtFav1">Mitsubishi Lancer 2.0 Evolution X John Easton 4x4 16v Turbo Intercooler Gasolina 4p Automático</string>
+    <string name="txtFav2">Dodge Ram 6.7 2500 Night Edition 4x4 Cd I6 Turbo Diesel 4p Automático</string>
+    <string name="txtFav3">Mclaren 720s 4.0 V8 Turbo Gasolina Ssg</string>
+
+    <string name="precoFav1">R$ 210.000</string>
+    <string name="precoFav2">R$ 518.000</string>
+    <string name="precoFav3">R$ 2.899.800</string>
+
+    <string name="favEnd">Não há mais favoritos pra ca</string>
+
+
+    <!-- Venda -->
+    <string name="v">Venda</string>
+
+    <string name="vName">Nome:</string>
+    <string name="vEmail">Email:</string>
+    <string name="vNameUso">Clarice Rodrigues</string>
+    <string name="vEmailUso">kupyskii@gmail.com</string>
+
+    <string name="vMarca">Marca:</string>
+    <string name="vMarcaHint">Digite a marca do modelo aqui...</string>
+
+    <string name="vModelo">Modelo:</string>
+    <string name="vModeloHint">Digite o modelo do carro aqui...</string>
+
+    <string name="vAnoMod">Ano do modelo:</string>
+    <string name="vAnoModHint">Digite o ano do modelo do carro aqui...</string>
+
+    <string name="vAnoFab">Ano de fabricação:</string>
+    <string name="vAnoFabHint">Digite o ano de fabricação do carro aqui...</string>
+
+    <string name="vKm">Quantidade de km rodados:</string>
+    <string name="vKmHint">Digite aqui a quantidade de km rodados...</string>
+
+    <string name="vPreço">Preço:</string>
+    <string name="vPreçoHint">Digite aqui o preço de venda...</string>
+
+    <string name="vCor">Cor do Carro:</string>
+    <string name="vCorHint">Digite a cor do carro aqui...</string>
+
+    <string name="vBlindadoHint">Blindado</string>
+
+    <string name="vReais">R$</string>
+
+    <string name="btnVolta">Voltar</string>
+    <string name="btnFinal1">Vender</string>
+    <string name="btnFinal2">Vender Outro</string>
+
+
+    <!-- cadastro -->
+    <string name="nomeC">Nome:</string>
+    <string name="nomeCHint">Digite seu nome aqui...</string>
+
+    <string name="emailC">Email:</string>
+    <string name="emailCHint">Digite seu email aqui...</string>
+
+    <string name="senhaC">Senha:</string>
+    <string name="senhaCHint">Digite sua senha aqui...</string>
+
+    <string name="sexoC">Sexo:</string>
+    <string name="sexoCHint">Digite seu sexo aqui...</string>
+
+    <string name="dataNascC">Data de Nascimento:</string>
+    <string name="dataNascCHint">Digite sua data de nascimento aqui...</string>
+
+    <string name="CPFC">CPF:</string>
+    <string name="CPFCHint">Digite seu CPF aqui...</string>
+
+    <string name="telC">Telefone:</string>
+    <string name="telCHint">Digite o número do seu telefone aqui...</string>
+
+    <string name="btnCad">Cadastrar</string>
+
+
+
+    <string name="txtLocalizar2">Isso ajuda em suas pesquisas.</string>
+    <string name="btnConhecer">Conheça a gente!</string>
+    <string name="btnLocalizar">Localizar</string>
+    <string name="textoLocal">Aperte o botão para saber sua localização :)</string>
+    <string name="endereco">"Endereço: %1$s  \n Latitude: %2$s \n Longitude: %3$s \n Timestamp: %4$tr"</string>
+    <string name="loading">Carregando…</string>
+    <string name="parar_busca">PARAR BUSCA</string>
+    <string name="iniciar_busca">INICIAR</string>
+    <string name="hint">Clique no botão para inicia</string>
+    <string name="permissao_recusada">Permissão negada, autorize a aplicação </string>
+    <string name="sem_localizacao">Localização Indisponível</string>
+    <string name="sem_endereco">Endereço indisponível</string>
+    <string name="coordenada_invalida">Coordenadas inválidas</string>
+    <string name="servico_indisponivel">Esse serviço está indisponível</string>
+
+    <string name="cDia">Foto do dia:</string>
+    <string name="cPop">Top 5 populares:</string>
+    <string name="cSup">Destaques Superesportivos:</string>
+    <string name="c4">Destques 4x4:</string>
+    <string name="cDes">Destaque Desempenho:</string>
+
+
+    <string name="conhecer">Saiba um pouco mais sobre nós!</string>
+    <string name="yt">Nosso canal no Youtube.</string>
+    <string name="num">Nosso número.</string>
+    <string name="site">Nosso site.</string>
+</resources>

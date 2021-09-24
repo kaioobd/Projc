@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/dvd"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="21dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <View
+        android:id="@+id/dvd9"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtPreçoV" />
+
+    <View
+        android:id="@+id/dvd10"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtCorV" />
+
+    <View
+        android:id="@+id/dvd11"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAnoModV" />
+
+    <View
+        android:id="@+id/dvd12"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtModeloV" />
+
+    <View
+        android:id="@+id/dvd13"
+        android:layout_width="360dp"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtMarcaV" />
+
+    <TextView
+        android:id="@+id/txtVenda"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/v"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtMarcaV"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/vMarca"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/txtAnoModV"
+        android:layout_width="160dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/vAnoMod"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtModeloV" />
+
+    <TextView
+        android:id="@+id/txtCorV"
+        android:layout_width="160dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/vCor"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtAnoModV" />
+
+    <EditText
+        android:id="@+id/edtTxtModeloV"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="@string/vModeloHint"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtModeloV"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        />
+
+    <EditText
+        android:id="@+id/edtTxtCorV"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="@string/vCorHint"
+        android:inputType="textPersonName"
+        android:textSize="12dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtCorV"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"/>
+
+    <EditText
+        android:id="@+id/edtTxtAnoModV"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="@string/vAnoModHint"
+        android:inputType="date"
+        android:padding="4sp"
+        android:textSize="6sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnoModV" />
+
+    <EditText
+        android:id="@+id/edtTxtPreçoV"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="@string/vPreçoHint"
+        android:inputType="number"
+        android:padding="4sp"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPrecoV" />
+
+    <TextView
+        android:id="@+id/txtPrecoV"
+        android:layout_width="60dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/vPreço"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/chkBlindadoV" />
+
+    <EditText
+        android:id="@+id/edtTxtKmV"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="@string/vKmHint"
+        android:inputType="number"
+        android:padding="4sp"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKmV" />
+
+    <EditText
+        android:id="@+id/edtTxtAnoFabV"
+        android:layout_width="160dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autoSizeTextType="uniform"
+        android:ems="10"
+        android:hint="@string/vAnoFabHint"
+        android:inputType="date"
+        android:padding="4sp"
+        android:textSize="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAnoFabV" />
+
+    <CheckBox
+        android:id="@+id/chkBlindadoV"
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="24dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/vBlindadoHint"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtCorV" />
+
+    <EditText
+        android:id="@+id/edtTxtMarcaV"
+        android:layout_width="328dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:hint="@string/vMarcaHint"
+        android:inputType="textPersonName"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMarcaV"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"/>
+
+    <TextView
+        android:id="@+id/txtKmV"
+        android:layout_width="160dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="4sp"
+        android:text="@string/vKm"
+        android:textSize="8sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtCorV"
+        android:gravity="right"/>
+
+    <TextView
+        android:id="@+id/txtAnoFabV"
+        android:layout_width="160dp"
+        android:layout_height="28dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:padding="4sp"
+        android:text="@string/vAnoFab"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/txtAnoModV"
+        android:gravity="right"/>
+
+    <TextView
+        android:id="@+id/txtModeloV"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:autoSizeTextType="uniform"
+        android:padding="4sp"
+        android:text="@string/vModelo"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtTxtMarcaV" />
+
+    <Button
+        android:id="@+id/btnVoltaV"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btnVolta"
+        android:textSize="16sp"
+        app:backgroundTint="@color/a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:padding="4sp"/>
+
+    <Button
+        android:id="@+id/btnFinalV"
+        android:layout_width="160dp"
+        android:layout_height="74dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/btnFinal1"
+        android:textSize="16sp"
+        app:backgroundTint="@color/a3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/unnamed" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
