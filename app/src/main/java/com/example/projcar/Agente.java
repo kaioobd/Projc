@@ -13,6 +13,7 @@ public class Agente extends AppCompatActivity {
     private ImageView btnYtb;
     private ImageView btnCall;
     private ImageView btnSite;
+    Button btnAvaliar;
 
 
     @Override
@@ -25,6 +26,7 @@ public class Agente extends AppCompatActivity {
         btnCall= (ImageView) findViewById(R.id.btnNum);
         btnSite= (ImageView) findViewById(R.id.btnSite);
 
+        btnAvaliar = (Button) findViewById(R.id.IdFalaComNois);
 
         btnYtb.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -48,6 +50,14 @@ public class Agente extends AppCompatActivity {
                 Intent intent = new Intent(Intent.ACTION_WEB_SEARCH);
                 String query = "Webmotors";
                 intent.putExtra(SearchManager.QUERY, query);
+                startActivity(intent);
+            }
+        });
+
+        btnAvaliar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent( getApplicationContext(), Avalia.class);
                 startActivity(intent);
             }
         });

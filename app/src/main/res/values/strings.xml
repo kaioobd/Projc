@@ -123,12 +123,11 @@
     <string name="btnCad">Cadastrar</string>
 
 
-
     <string name="txtLocalizar2">Isso ajuda em suas pesquisas.</string>
     <string name="btnConhecer">Conheça a gente!</string>
     <string name="btnLocalizar">Localizar</string>
     <string name="textoLocal">Aperte o botão para saber sua localização :)</string>
-    <string name="endereco">"Endereço: %1$s  \n Latitude: %2$s \n Longitude: %3$s \n Timestamp: %4$tr"</string>
+    <string name="endereco">"Endereço: %1$s Timestamp: %4$tr"</string>
     <string name="loading">Carregando…</string>
     <string name="parar_busca">PARAR BUSCA</string>
     <string name="iniciar_busca">INICIAR</string>

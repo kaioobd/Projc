@@ -4,7 +4,7 @@
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -13,7 +13,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Projcar">
-        <activity android:name=".Agente"></activity>
+        <activity android:name=".Ler"></activity>
+        <activity android:name=".Gravar" />
+        <activity android:name=".Avalia" />
+        <activity android:name=".Agente" />
         <activity android:name=".Vender" />
         <activity android:name=".Perfil" />
         <activity android:name=".FinalizarVenda" />
