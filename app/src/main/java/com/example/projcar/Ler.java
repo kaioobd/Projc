@@ -26,7 +26,7 @@ public class Ler extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ler);
 
-        txtTexto = (TextView) findViewById(R.id.terraria);
+        txtTexto = (TextView) findViewById(R.id.itext);
         type = (Type) getIntent().getSerializableExtra(Constantes.STORAGE_TYPE);
 
         try {

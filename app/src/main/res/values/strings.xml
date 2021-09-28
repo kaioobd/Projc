@@ -149,4 +149,9 @@
     <string name="yt">Nosso canal no Youtube.</string>
     <string name="num">Nosso número.</string>
     <string name="site">Nosso site.</string>
+
+    <string name="Avalie">Avalie a Gente</string>
+    <string name="Digite_aqui">Digite aqui...</string>
+    <string name="Gravar">Gravar</string>
+
 </resources>
